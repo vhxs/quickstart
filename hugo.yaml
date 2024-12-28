@@ -1,0 +1,53 @@
+baseurl: "https://example.org/" # please update this to your actual URL
+languageCode: "en-us"
+title: "Vikram Saraph"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Categories
+      url: "categories/"
+      weight: 3
+    - name: Tags
+      url: "tags/"
+      weight: 4
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy; [Vikram Saraph](https://vikramsaraph.com) 2024 -- {Year} | [Github](https://github.com/vhxs)"
+  highlight: true
+
+markup:
+  highlight:
+    codeFences: true
+    lineNumbers: true
+    style: "monokai"
+    inlineCode: true
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
