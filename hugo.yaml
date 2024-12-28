@@ -4,30 +4,27 @@ title: "Vikram Saraph"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles: ["_cache$"]
 footnotereturnlinkcontents: "↩"
 
 permalinks:
-  post: "/post/:year/:month/:day/:slug/"
+  blog: "/blog/:year/:month/:day/:slug/"
 
 menu:
   main:
     - name: Home
       url: ""
       weight: 1
-    - name: About
-      url: "about/"
+    - name: Blog
+      url: "blog/"
       weight: 2
-    - name: Categories
-      url: "categories/"
-      weight: 3
     - name: Tags
-      url: "tags/"
-      weight: 4
+      url: tags/
+      weight: 3
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Vikram Saraph](https://vikramsaraph.com) 2024 -- {Year} | [Github](https://github.com/vhxs)"
+  description: "Vikram's personal website and blog."
+  footer: "&copy; [Vikram Saraph](https://vikramsaraph.com) 2024 -- {Year} | [GitHub](https://github.com/vhxs)"
   highlight: true
 
 markup:
@@ -51,3 +48,6 @@ markup:
           inline:
             - - \(
               - \)
+
+taxonomies:
+  tag: tags

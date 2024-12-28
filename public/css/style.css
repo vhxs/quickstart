@@ -3,6 +3,7 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
+  background-color: #DDEEFF;
 }
 
 /* header and footer areas */
@@ -18,7 +19,7 @@ body {
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
-  border-style: dashed;
+  border-style: solid;
   color: #ddd;
 }
 
@@ -49,3 +50,7 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+a {
+  color: red;
+}
