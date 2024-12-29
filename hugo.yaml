@@ -1,4 +1,4 @@
-baseurl: "https://example.org/" # please update this to your actual URL
+baseurl: "https://vikramsaraph.com/" # please update this to your actual URL
 languageCode: "en-us"
 title: "Vikram Saraph"
 theme: "hugo-xmin"
@@ -24,7 +24,8 @@ menu:
 
 params:
   description: "Vikram's personal website and blog."
-  footer: "&copy; [Vikram Saraph](https://vikramsaraph.com) 2024 -- {Year} | [GitHub](https://github.com/vhxs)"
+  author: "Vikram Saraph"
+  footer: "&copy; [Vikram Saraph](https://vikramsaraph.com)   2024 -- {Year} | [GitHub](https://github.com/vhxs)"
   highlight: true
 
 markup:

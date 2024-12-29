@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Vikram Saraph</title>
+    <title>Blog posts on Vikram Saraph</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on Vikram Saraph</description>
+    <description>Recent content in Blog posts on Vikram Saraph</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Example that tests a few features</title>
-      <link>http://localhost:1313/blog/2024/02/14/a-example-that-tests-a-few-features/</link>
-      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2024/02/14/a-example-that-tests-a-few-features/</guid>
-      <description>&lt;p&gt;This sample post is mainly for&#xA;&lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; users. If you do not use&#xA;&lt;strong&gt;blogdown&lt;/strong&gt;, you can skip the first section.&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-markdown-or-r-markdown&#34;&gt;1. Markdown or R Markdown&lt;/h1&gt;&#xA;&lt;p&gt;This is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown&#xA;(&lt;code&gt;*.Rmd&lt;/code&gt;). The major differences are:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;You cannot run any R code in a plain Markdown document, whereas in an R&#xA;Markdown document, you can embed R code chunks (&lt;code&gt;```{r}&lt;/code&gt;);&lt;/li&gt;&#xA;&lt;li&gt;A plain Markdown post is rendered through&#xA;&lt;a href=&#34;https://gohugo.io/overview/configuration/&#34;&gt;Goldmark&lt;/a&gt; by default, and an R&#xA;Markdown document is compiled by&#xA;&lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;&lt;strong&gt;rmarkdown&lt;/strong&gt;&lt;/a&gt; and&#xA;&lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;There are differences in syntax between Goldmark&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s&#xA;Markdown. For example, Goldmark does not support LaTeX math and Pandoc does. I&#xA;have added the KaTeX support to this theme (i.e.,&#xA;&lt;a href=&#34;https://github.com/yihui/hugo-xmin&#34;&gt;hugo-xmin&lt;/a&gt;)&lt;/p&gt;</description>
+      <title>Setting up a Website with Hugo</title>
+      <link>http://localhost:1313/blog/2024/12/29/setting-up-a-website-with-hugo/</link>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2024/12/29/setting-up-a-website-with-hugo/</guid>
+      <description>&lt;h3 id=&#34;blogging-and-static-site-generators&#34;&gt;Blogging and Static Site Generators&lt;/h3&gt;&#xA;&lt;p&gt;Yes, I have a website and an online presence. My first incarnation of a (Wordpress) &lt;a href=&#34;https://markivikram.wordpress.com/about&#34;&gt;blog&lt;/a&gt; from 2013 is still out there living on the Internet; it was named after &lt;a href=&#34;https://en.wikipedia.org/wiki/Constructible_universe&#34;&gt;Gödel’s constructible universe&lt;/a&gt; since I was obsessed with the foundations of mathematics when studying theoretical computer science at that time.&lt;/p&gt;&#xA;&lt;p&gt;Recently (early 2024), I’d wanted to quickly stand up a website to reestablish an online presence, but without getting bogged down by setting up a &lt;a href=&#34;https://www.cloudflare.com/learning/performance/static-site-generator/&#34;&gt;static site generator&lt;/a&gt; (SSG) to do it, and so I didn’t initially use an SSG. However in the long term, especially as I continue to blog, I want to use an SSG again. People probably have &lt;a href=&#34;https://www.quora.com/Why-do-people-use-a-static-site-generator&#34;&gt;lots&lt;/a&gt; &lt;a href=&#34;https://lobste.rs/s/3lvxdx/why_i_don_t_use_static_site_generator&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;https://news.ycombinator.com/item?id=38126210&#34;&gt;opinions&lt;/a&gt; &lt;a href=&#34;https://stackoverflow.com/questions/51726069/why-use-a-static-site-generator-such-as-hugo-over-a-regular-bundler-webpack-pa&#34;&gt;about&lt;/a&gt; &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/zh13x8/why_do_we_need_static_site_generators/&#34;&gt;SSGs&lt;/a&gt;, and I’m not going to pretend having a full understanding of them, but based on what I&amp;rsquo;ve read (and some prior experience with it), the main value of an SSG is to separate of content from the design and presentation of that content. The more content you have, the more it probably makes sense to use an SSG. It becomes easier to migrate your content, or to change the design while leaving the content intact.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spindown Dice</title>
+      <link>http://localhost:1313/blog/2024/10/14/spindown-dice/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2024/10/14/spindown-dice/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
