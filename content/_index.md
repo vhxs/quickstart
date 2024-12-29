@@ -11,7 +11,7 @@ research. To that end, I enjoy working with reseachers across a variety of domai
 
 I've served in various roles during the course of my career, including as technical lead on software projects,
 as principal investigator
-on research projects, and as an individual contributor developing sofware, training machine learning
+on research projects, and as an individual contributor developing software, training machine learning
 models, and doing data science. Recent application domains include information operations, homomorphic encryption, and audio/video processing.
 
 I am a lifelong learner and am not afraid to tackle problems

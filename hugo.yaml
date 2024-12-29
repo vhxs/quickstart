@@ -25,7 +25,10 @@ menu:
 params:
   description: "Vikram's personal website and blog."
   author: "Vikram Saraph"
-  footer: "&copy; [Vikram Saraph](https://vikramsaraph.com)   2024 -- {Year} | [GitHub](https://github.com/vhxs)"
+  yearStart: 2024
+  github: vhxs
+  linkedin: vsaraph
+  bluesky: vikramsaraph.com
   highlight: true
 
 markup:
