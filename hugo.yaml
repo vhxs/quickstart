@@ -1,7 +1,7 @@
-baseurl: "https://vikramsaraph.com/" # please update this to your actual URL
+baseurl: "https://vikramsaraph.com/"
 languageCode: "en-us"
 title: "Vikram Saraph"
-theme: "hugo-xmin"
+theme: "ivxenz"
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["_cache$"]
