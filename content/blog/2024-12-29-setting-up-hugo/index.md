@@ -111,10 +111,14 @@ content/
 
 My blog post on dice has several associated images, and my posts in the future will likely also use embedded images, so it makes sense to structure blog content this way.
 
+Markdown leaves much to be desired when it comes to embedding images; for example, you can't resize images using just Markdown. This isn't a problem specific to Hugo, but Hugo does offer a feature called [shortcodes](https://gohugo.io/content-management/shortcodes/) which augments Markdown when its capabilities fall short. I used the `figure` shortcode to embed images. Hugo is also capable of rendering HTML inserted directly into Markdown, which I had to do to organize two images side by side.
+
 ## Using AI to help me
 
-Hugo, as with most other software, has a lot of documentation. Usually with new software, it doesn't make sense reading literally everything because you don't necessarily need to know everything to get started using it. If I spent my time reading it all, I'd get nowhere, so I had to be selective with how I spent my time. I wagered that Hugo has been around long enough and is used enough for GPT models to have learned enough to answer questions about Hugo and how to use it properly. Indeed, ChatGPT helped me answer some questions I had fairly quickly. And of course, after receiving suggestions from ChatGPT, I cross-checked it with what the documentation actually says. In this was ChatGPT was good at providing me with direction based on vague ideas I had for the blog.
+For better or worse, "AI" has become colloquially synonymous with large language models and ChatGPT in particular. In that sense I used AI to setup this blog.
 
-Here's one (long) conversation I had as I worked on the theme and the site. Most questions are concerning the template engine or about styling. Working with AI saved me a lot of time, and it was even helpful with providing me explanations for things (I want to _understand_ what I'm doing instead of just blindly following instructions.)
+Hugo, as with most other mature software, has a lot of documentation. Usually when learning new software, it doesn't make sense reading literally everything because you don't necessarily need to know everything to get started using it. If I spent my time reading it all, I'd get nowhere, so I had to be selective with how I spent my time. I wagered that Hugo has been around long enough and is used enough for GPT models to have learned enough to answer questions about Hugo and how to use it properly. Indeed, ChatGPT helped me answer some questions I had fairly quickly. And of course, after receiving suggestions from ChatGPT, I cross-checked it with what the documentation actually says. In this was ChatGPT was good at providing me with direction based on vague ideas I had for the blog.
+
+Here's [one (long) conversation](https://chatgpt.com/share/6771ed08-1ca0-8000-bfb3-80442b71a7c8) I had as I worked on the theme and the site. Most questions are concerning the template engine or about styling. Working with AI saved me a lot of time, and it was even helpful with providing me explanations for things (I want to _understand_ what I'm doing instead of just blindly following instructions.)
 
 By contrast, I didn't use AI to generate any _content_ on this blog and I'd like to keep in that way in the future.
