@@ -4,6 +4,9 @@ author: Vikram Saraph
 date: "2024-12-29"
 tags:
   - meta
+  - website
+  - html
+  - css
 ---
 
 ## Blogging and static site generators
@@ -85,15 +88,15 @@ I added hyperlinked icons for a few of my socials (GitHub, Bluesky, LinkedIn). I
 
 There are lots of icon providers out there. After some searching online, [Font Awesome](https://fontawesome.com/) seems to be the most well known among them, but they've moved to a freemium model as of version 5 (and they're on version 6 now). When you follow their instructions on how to use their icons, you have to create an account, create a [Kit](https://docs.fontawesome.com/web/setup/use-kit), and provide your domain name that will fetch icons you select. Font Awesome will track how many downloads required by your domain from their CDN, and cap free usage at a maximum of 10,000 per year; after that you have to upgrade to a premiem tier.
 
-I was almost ready to give up on Font Awesome because I didn't want to use a freemium service for my website. I tried a few other icon providers, and for the most part they had GitHub and LinkedIn icons available, but no Bluesky icon (Font Awesome does). After more searching, I did find a [StackOverflow post](https://stackoverflow.com/questions/71201741/how-to-use-font-awesome-6-icons) with a user asking whether it's possible to use Font Awesome 6 via CDN, because Font Awesome 4 icons were (and still are) useable [directly via public CDN](https://fontawesome.com/v4/get-started/). Another user answered with a link to a public Font Awesome 6 CDN for their free-tier icons, and indeed, using the minified CSS that it provides did work for me. I can fetch all three icons I want. It makes me wonder why Font Awesome isn't advertising use of their public CDN for free-tier icons, but I would have to imagine that it's because they want to discourage its use.
+I was almost ready to give up on Font Awesome because I didn't want to use a freemium service for my website. I tried a few other icon providers, and for the most part they had GitHub and LinkedIn icons available, but no Bluesky icon (Font Awesome does). After more searching, I did find a [StackOverflow post](https://stackoverflow.com/questions/71201741/how-to-use-font-awesome-6-icons) with a user asking whether it's possible to use Font Awesome 6 via CDN, because Font Awesome 4 icons were (and still are) useable [directly via public CDN](https://fontawesome.com/v4/get-started/). Another user answered with a link to a public Font Awesome 6 CDN link for their free-tier icons, and indeed, using the minified CSS that it provides did work for me. I can fetch all three icons I want. It makes me wonder why Font Awesome isn't advertising use of their public CDN for free-tier icons, but I would have to imagine that it's because they want to discourage its use.
 
-I think this summarizes my changes to the original theme that I wanted to touch upon. I didn't have to change it all that much to end up with something I'm reasonably comfortable with using in the future. I'll only add more complexity to the structure of my blog if I end up with so much content that that is warranted, but I'm confident that I have a good enough understanding of Hugo (and HTML and CSS) to do that, and only time will tell whether how much I actually write. My blog's source code can be found here, and my theme can be found here (I'm calling it `ivxenz`, which is "vikram" [ROT13'd](https://en.wikipedia.org/wiki/ROT13) and a cute nickname I got from a friend).
+I think this summarizes my changes to the original theme that I wanted to touch upon. I didn't have to change it all that much to end up with something I'm reasonably comfortable with using in the future. I'll only add more complexity to the structure of my blog if I end up with so much content that that is warranted, but after this exercise I'm confident I have a reasonable understanding of Hugo (and HTML and CSS) to do that, and only time will tell whether how much I actually write. My blog's source code can be found here, and my theme can be found here (I'm calling it `ivxenz`, which is "vikram" [ROT13'd](https://en.wikipedia.org/wiki/ROT13) and a cute nickname I got from a friend).
 
 ## Migrating my lonely blog post
 
 I had a single blog post that I needed to migrate. It's about dice. It was written in plain HTML and so migrating it to Markdown was a chore. This is one reason why SSGs are nice to use.
 
-This is when I realized I want to use [page bundles](https://gohugo.io/content-management/page-bundles/), which logically group Markdown content with associated resources such as images and video. This is what the directory structure looks like; I actually didn't have to change the theme or `hugo.yaml` to use page bundles:
+It was at the time of blog post migration that I realized I want to use [page bundles](https://gohugo.io/content-management/page-bundles/), which logically group Markdown content with associated resources such as images and video. This is what the directory structure looks like; I actually didn't have to change the theme or `hugo.yaml` to use page bundles:
 
 ```
 content/
@@ -106,10 +109,12 @@ content/
 │   │   └── image2.jpg
 ```
 
-My blog post on dice has several associated images, and my posts in the future will likely also embed images, so it makes sense to structure blog content this way.
+My blog post on dice has several associated images, and my posts in the future will likely also use embedded images, so it makes sense to structure blog content this way.
 
 ## Using AI to help me
 
-Hugo, as with most other software, has a lot of documentation. If I spent all my time reading it all, I'd get nowhere, so I had to be selective with how I spent my time. I wagered that Hugo has been around long enough and is used enough for GPT models to have learned enough to answer questions about Hugo and how to use it properly. Indeed, ChatGPT helped me answer some questions I had fairly quickly. Here's one (long) conversation I had as I worked on the theme and the site. Most questions are concerning the template engine or about styling. Working with AI saved me a lot of time, and it was even helpful with providing me explanations for things (I want to _understand_ what I'm doing instead of just blindly following instructions.)
+Hugo, as with most other software, has a lot of documentation. Usually with new software, it doesn't make sense reading literally everything because you don't necessarily need to know everything to get started using it. If I spent my time reading it all, I'd get nowhere, so I had to be selective with how I spent my time. I wagered that Hugo has been around long enough and is used enough for GPT models to have learned enough to answer questions about Hugo and how to use it properly. Indeed, ChatGPT helped me answer some questions I had fairly quickly. And of course, after receiving suggestions from ChatGPT, I cross-checked it with what the documentation actually says. In this was ChatGPT was good at providing me with direction based on vague ideas I had for the blog.
+
+Here's one (long) conversation I had as I worked on the theme and the site. Most questions are concerning the template engine or about styling. Working with AI saved me a lot of time, and it was even helpful with providing me explanations for things (I want to _understand_ what I'm doing instead of just blindly following instructions.)
 
 By contrast, I didn't use AI to generate any _content_ on this blog and I'd like to keep in that way in the future.

@@ -37,8 +37,8 @@ hr {
 
 /* code */
 pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
+  border: 1px dashed gray;
+  box-shadow: 1px 1px 1px black;
   padding: 1em;
   overflow-x: auto;
 }
@@ -84,4 +84,23 @@ a i {
 
 footer {
   text-align: center;
+}
+
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.0em;
+  font-style: italic;
 }
