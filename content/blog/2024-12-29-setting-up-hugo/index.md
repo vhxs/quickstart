@@ -23,7 +23,7 @@ My domain is registed with [Cloudflare](https://www.cloudflare.com/products/regi
 
 ## Hugo
 
-Now I’m once again returning to looking at static site generators, wanting to write and blog online again, and I’ve noticed that many of my favorite bloggers use [Hugo](https://gohugo.io/). I’m not sure I have a good reason for not wanting to use Jekyll again (it may be related to my frustrations with Ruby’s ecosystem when setting up and managing a Jekyll-generated site, though they may have had more to do with me generally being a novice software person at the time), but I would prefer to try out a new static site generator this time. And so I ended up on Hugo.
+Now I’m once again returning to looking at static site generators, wanting to write and blog online again, and I’ve noticed that many of my favorite bloggers use [Hugo](https://gohugo.io/). I’m not sure I have a good reason for not wanting to use Jekyll again (it may be related to my frustrations with Ruby’s ecosystem when setting up and managing a Jekyll-generated site, though they may have had more to do with me generally being a novice software person at the time), but I would prefer to try out a new static site generator this time. And so I ended up on Hugo. (Who knows, maybe one day I'll switch to [Zola](https://thedataquarry.com/posts/static-site-zola/)).
 
 Choosing Hugo over Jekyll isn’t exactly avoiding the problem of having to create one’s own theme, so I did have to dive into Hugo and its template engine, [Go templates](https://gohugo.io/templates/introduction/), to figure out what it is that I'm doing.
 
