@@ -1,3 +1,5 @@
 [submodule "themes/hugo-xmin"]
 	path = themes/hugo-xmin
 	url = https://github.com/vhxs/hugo-xmin.git
+[submodule "themes/ivxenz"]
+	url = https://github.com/vhxs/ivxenz
