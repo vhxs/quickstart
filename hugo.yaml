@@ -29,6 +29,7 @@ params:
   github: vhxs
   linkedin: vsaraph
   bluesky: vikramsaraph.com
+  favicon: https://upload.wikimedia.org/wikipedia/commons/e/e0/Aleph0.svg
   highlight: true
 
 markup:
